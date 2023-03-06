@@ -2,6 +2,8 @@
 
 ![screenshot](https://i.imgur.com/37UlPiS.png)
 
+# [Open project](https://alesbe.github.io/fm-qr-code-component/)
+
 ## Technologies used ⚒️
 - HTML
 - CSS
