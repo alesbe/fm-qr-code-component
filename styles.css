@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+/* Global */
+html {
+    font-size: 15px;
+}
+
 body {
     background-color: hsl(212, 45%, 89%);
     margin: 0;
@@ -10,39 +15,40 @@ body {
     justify-content: center;
 }
 
+/* Card */
 .card {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 300px;
-    padding: 20px;
-    padding-bottom: 40px;
-    border-radius: 15px;
+    max-width: 25rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
+.card,
 .card-image {
-    overflow: hidden;
-    border-radius: 15px;
-    margin-bottom: 15px;
-    width: 100%;
+    border-radius: 1.3rem;
+}
+
+/* Card image */
+.card-image {
+    max-width: 100%;
     aspect-ratio: 1 / 1;
 }
 
-.card-image > img {
-    height: 100%;
+/* Card text */
+.text-wrapper {
+    margin: 1rem;
 }
 
 .card-title {
     color: hsl(218, 44%, 22%);
-    margin: 10px;
+    font-size: 2rem;
 }
 
 .card-text {
-    font-weight: 400;
-    margin-top: 0px;
-    margin: 10px;
+    font-size: 1.3rem;
     color: hsl(220, 15%, 55%)
 }
